@@ -1,0 +1,3 @@
+C:\Users\prest\source\repos\SDLProject\Debug\SDLProject.exe
+C:\Users\prest\source\repos\Transformations\Debug\SDLProject.exe
+C:\Users\prest\source\repos\2DScene\Debug\2DScene.exe

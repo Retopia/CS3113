@@ -138,8 +138,8 @@ const int NUMBER_OF_TEXTURES = 1; // to be generated, that is
 const GLint LEVEL_OF_DETAIL = 0;  // base image level; Level n is the nth mipmap reduction image
 const GLint TEXTURE_BORDER = 0;   // this value MUST be zero
 
-const char player1_sprite[] = "player_blob.png";
-const char player2_sprite[] = "enemy_blob.png";
+const char player1_sprite[] = "images/player_blob.png";
+const char player2_sprite[] = "images/enemy_blob.png";
 
 SDL_Window* display_window;
 bool game_is_running = true;
@@ -301,7 +301,7 @@ void update() {
     float y_distance2 = fabs(ball.getPosition().y - player2.getPosition().y) - ((0.25 + 1.75) / 2.0f);
 
     if (x_distance1 < 0 && y_distance1 < 0 && !bouncedOffPlayer1) {
-        std::cout << "bounced1" << std::endl;
+        //std::cout << "bounced1" << std::endl;
         glm::vec3 direction = ball.getMovement();
         float radians = atan2(direction.y, direction.x);
         float result = radians;
@@ -317,13 +317,13 @@ void update() {
         }
 
         ball.setMovement(glm::vec3(cos(result), sin(result), 0.0f));
-        std::cout << radians * 180/PI << " to " << result * 180 / PI << std::endl;
+        //std::cout << radians * 180/PI << " to " << result * 180 / PI << std::endl;
         prevBallMovement = ball.getMovement();
         bouncedOffPlayer1 = true;
     }
 
     if (x_distance2 < 0 && y_distance2 < 0 && bouncedOffPlayer1) {
-        std::cout << "bounced2" << std::endl;
+        //std::cout << "bounced2" << std::endl;
         glm::vec3 direction = ball.getMovement();
         float radians = atan2(direction.y, direction.x);
         float result = radians;
@@ -338,7 +338,7 @@ void update() {
         }
 
         ball.setMovement(glm::vec3(cos(result), sin(result), 0.0f));
-        std::cout << radians * 180 / PI << " to " << result * 180 / PI << std::endl;
+        //std::cout << radians * 180 / PI << " to " << result * 180 / PI << std::endl;
         prevBallMovement = ball.getMovement();
         bouncedOffPlayer1 = false;
     }

@@ -1,0 +1,7 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(514,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (2DScene.vcxproj, Physics test.vcxproj, SDLProject.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  main.cpp
+C:\Users\prest\source\repos\Lunar Lander\Entity.h(80,55): warning C4244: 'return': conversion from 'const float' to 'const int', possible loss of data
+C:\Users\prest\source\repos\Lunar Lander\Entity.h(81,55): warning C4244: 'return': conversion from 'const float' to 'const int', possible loss of data
+  The contents of <source_location> are available only with C++20 consteval support.
+C:\Users\prest\source\repos\Lunar Lander\main.cpp(135,23): warning C4018: '<': signed/unsigned mismatch
+  SDLProject.vcxproj -> C:\Users\prest\source\repos\Lunar Lander\Debug\Lunar Lander.exe

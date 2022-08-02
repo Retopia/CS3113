@@ -1,0 +1,9 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(514,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (Lunar Lander.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  Entity.cpp
+C:\Users\prest\source\repos\AI\Entity.h(97,56): warning C4244: 'return': conversion from 'const float' to 'const int', possible loss of data
+C:\Users\prest\source\repos\AI\Entity.h(98,56): warning C4244: 'return': conversion from 'const float' to 'const int', possible loss of data
+  main.cpp
+C:\Users\prest\source\repos\AI\Entity.h(97,56): warning C4244: 'return': conversion from 'const float' to 'const int', possible loss of data
+C:\Users\prest\source\repos\AI\Entity.h(98,56): warning C4244: 'return': conversion from 'const float' to 'const int', possible loss of data
+  Generating Code...
+  SDLProject.vcxproj -> C:\Users\prest\source\repos\AI\Debug\AI.exe

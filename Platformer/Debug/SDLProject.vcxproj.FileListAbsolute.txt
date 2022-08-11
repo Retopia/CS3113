@@ -1,0 +1,2 @@
+C:\Users\prest\source\repos\AI\Debug\AI.exe
+C:\Users\prest\source\repos\Platformer\Debug\Platformer.exe
